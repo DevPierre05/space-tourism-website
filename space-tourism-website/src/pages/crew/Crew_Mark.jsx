@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import workerImg from "../../../public/crew/image-mark-shuttleworth.png";
+import workerImg from "../../images/crew/image-mark-shuttleworth.png";
 export default function Crew_Mark() {
   const { crew } = data;
   const [worker] = crew.filter((dest) => dest.name === "Mark Shuttleworth");

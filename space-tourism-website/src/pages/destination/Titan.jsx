@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import titanImg from "../../../public/destination/image-europa.png";
+import titanImg from "../../images/destination/image-europa.png";
 
 export default function Titan() {
   const { destinations } = data;

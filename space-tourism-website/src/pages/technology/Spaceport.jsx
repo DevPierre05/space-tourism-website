@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import spaceportImg from "../../../public/technology/image-spaceport-portrait.jpg";
+import spaceportImg from "../../images/technology/image-spaceport-portrait.jpg";
 
 export default function Spaceport() {
   const { technology } = data;

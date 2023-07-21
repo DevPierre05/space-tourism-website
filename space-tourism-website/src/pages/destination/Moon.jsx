@@ -1,5 +1,5 @@
 import data from "../../data.json"
-import moonImg from "../../../public/destination/image-moon.png";
+import moonImg from "../../images/destination/image-moon.png";
 
   
 export default function Moon () {

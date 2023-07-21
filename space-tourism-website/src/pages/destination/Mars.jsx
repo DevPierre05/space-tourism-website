@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import marsImg from "../../../public/destination/image-mars.png";
+import marsImg from "../../images/destination/image-mars.png";
 
 export default function Mars() {
   const { destinations } = data;

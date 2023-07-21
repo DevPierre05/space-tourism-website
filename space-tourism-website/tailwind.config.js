@@ -10,24 +10,23 @@ export default {
       xl: "1280px",
     },
     backgroundImage: {
-      "home-desktop": "url('./public/home/background-home-desktop.jpg')",
-      "home-tablet": "url('./public/home/background-home-tablet.jpg')",
-      "home-mobile": "url('./public/home/background-home-mobile.jpg')",
-      "destination-desktop":
-        "url('./public/destination/background-destination-desktop.jpg')",
+      "home-desktop": "url('./src/images/home/background-home-desktop.jpg')",
+      "home-tablet": "url('./src/images/home/background-home-tablet.jpg')",
+      "home-mobile": "url('./src/images/home/background-home-mobile.jpg')",
+      "destination-desktop": "url('./src/images/destination/background-destination-desktop.jpg')",
       "destination-tablet":
-        "url('./public/destination/background-destination-tablet.jpg')",
+        "url('./src/images/destination/background-destination-tablet.jpg')",
       "destination-mobile":
-        "url('./public/destination/background-destination-mobile.jpg')",
-      "crew-desktop": "url('./public/crew/background-crew-desktop.jpg')",
-      "crew-tablet": "url('./public/crew/background-crew-tablet.jpg')",
-      "crew-mobile": "url('./public/crew/background-crew-mobile.jpg')",
+        "url('./src/images/destination/background-destination-mobile.jpg')",
+      "crew-desktop": "url('./src/images/crew/background-crew-desktop.jpg')",
+      "crew-tablet": "url('./src/images/crew/background-crew-tablet.jpg')",
+      "crew-mobile": "url('./src/images/crew/background-crew-mobile.jpg')",
       "tech-desktop":
-        "url('./public/technology/background-technology-desktop.jpg')",
+        "url('./src/images/technology/background-technology-desktop.jpg')",
       "tech-tablet":
-        "url('./public/technology/background-technology-tablet.jpg')",
+        "url('./src/images/technology/background-technology-tablet.jpg')",
       "tech-mobile":
-        "url('./public/technology/background-technology-mobile.jpg')",
+        "url('./src/images/technology/background-technology-mobile.jpg')",
     },
 
     extend: {

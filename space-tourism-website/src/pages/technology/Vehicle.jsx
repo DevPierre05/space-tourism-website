@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import vehicleImg from "../../../public/technology/image-launch-vehicle-portrait.jpg";
+import vehicleImg from "../../images/technology/image-launch-vehicle-portrait.jpg";
 
 export default function Vehicle() {
   const { technology } = data;

@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import europaImg from "../../../public/destination/image-europa.png";
+import europaImg from "../../images/destination/image-europa.png";
 
 export default function Europa() {
   const { destinations } = data;
