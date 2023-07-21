@@ -1,5 +1,5 @@
 import { NavLink, Link, Outlet } from "react-router-dom";
-import logo from "../assets/shared/logo.svg";
+import logo from "../../public/shared/logo.svg";
 import { useState } from "react";
 export default function Layout() {
   const activeLink = {

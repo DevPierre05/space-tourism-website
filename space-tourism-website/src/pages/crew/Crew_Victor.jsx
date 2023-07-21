@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import workerImg from "../../assets/crew/image-victor-glover.png";
+import workerImg from "../../../public/crew/image-victor-glover.png";
 export default function Crew_Victor() {
   const { crew } = data;
   console.log(crew);

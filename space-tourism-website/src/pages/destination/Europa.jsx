@@ -1,5 +1,5 @@
 import data from "../../data.json";
-import europaImg from "../../assets/destination/image-europa.png";
+import europaImg from "../../../public/destination/image-europa.png";
 
 export default function Europa() {
   const { destinations } = data;
@@ -14,7 +14,7 @@ export default function Europa() {
           className="w-[17.375rem] h-[17.375rem] sm:w-[24.375rem] sm:h-[24.375rem] md:w-[28.375rem] md:h-[28.375rem]"
         />
       </div>
-      <div className="max-w-full px-4 flex flex-col items-center lg:basis-[50%] text-white">
+      <div className="max-w-full px-4 flex flex-col items-center lg:items-start lg:basis-[50%] text-white">
         <h1 className="name_dest sm:text-[6.25rem]">{europa.name}</h1>
         <p className="dest_description sm:max-w-[90%] md:max-w-[75%]">
           {europa.description}
@@ -29,7 +29,9 @@ export default function Europa() {
           </div>
           <div className="">
             <p className="sub_text">Est. Travel Time</p>
-            <p className="sub_text_results">{europa.travel}</p>
+            <p className="sub_text_results sm:text-[1.75rem]">
+              {europa.travel}
+            </p>
           </div>
         </div>
       </div>

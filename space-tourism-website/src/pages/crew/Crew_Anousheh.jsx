@@ -1,5 +1,5 @@
 import data from "../../data.json"
-import workerImg from "../../assets/crew/image-anousheh-ansari.png"
+import workerImg from "../../../public/crew/image-anousheh-ansari.png";
 export default function Crew_Anousheh() {
   const { crew } = data;
   const [worker] = crew.filter((dest) => dest.name === "Anousheh Ansari");
