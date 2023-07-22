@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import spaceportImg from "../../images/technology/image-spaceport-portrait.jpg";
-import spaceportImg2 from "../../images/technology/image-spaceport-landscape.jpg";
+import spaceportImg from "../../assets/images/technology/image-spaceport-portrait.jpg";
+import spaceportImg2 from "../../assets/images/technology/image-spaceport-landscape.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Spaceport() {

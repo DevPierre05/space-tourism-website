@@ -1,6 +1,6 @@
 import data from "../../data.json"
-import workerImg from "../../images/crew/image-anousheh-ansari.png";
-import placeholderImg from "../../images/crew/image-anousheh-ansari.webp";
+import workerImg from "../../assets/images/crew/image-anousheh-ansari.png";
+import placeholderImg from "../../assets/images/crew/image-anousheh-ansari.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Crew_Anousheh() {

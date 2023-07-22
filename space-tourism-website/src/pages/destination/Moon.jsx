@@ -1,6 +1,6 @@
 import data from "../../data.json"
-import moonImg from "../../images/destination/image-moon.png";
-import placeholderImg from "../../images/destination/image-moon.webp";
+import moonImg from "../../assets/images/destination/image-moon.png";
+import placeholderImg from "../../assets/images/destination/image-moon.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
   

@@ -10,23 +10,26 @@ export default {
       xl: "1280px",
     },
     backgroundImage: {
-      "home-desktop": "url(./src/images/home/background-home-desktop.jpg)",
-      "home-tablet": "url(./src/images/home/background-home-tablet.jpg)",
-      "home-mobile": "url(./src/images/home/background-home-mobile.jpg)",
-      "destination-desktop": "url(./src/images/destination/background-destination-desktop.jpg)",
+      "home-desktop":
+        "url('./src/assets/images/home/background-home-desktop.jpg)",
+      "home-tablet": "url(./src/assets/images/home/background-home-tablet.jpg)",
+      "home-mobile": "url(./src/assets/images/home/background-home-mobile.jpg)",
+      "destination-desktop":
+        "url(./src/assets/images/destination/background-destination-desktop.jpg)",
       "destination-tablet":
-        "url(./src/images/destination/background-destination-tablet.jpg)",
+        "url(./src/assets/images/destination/background-destination-tablet.jpg)",
       "destination-mobile":
-        "url(./src/images/destination/background-destination-mobile.jpg)",
-      "crew-desktop": "url(./src/images/crew/background-crew-desktop.jpg)",
-      "crew-tablet": "url(./src/images/crew/background-crew-tablet.jpg)",
-      "crew-mobile": "url(./src/images/crew/background-crew-mobile.jpg)",
+        "url(./src/assets/images/destination/background-destination-mobile.jpg)",
+      "crew-desktop":
+        "url(./src/assets/images/crew/background-crew-desktop.jpg)",
+      "crew-tablet": "url(./src/assets/images/crew/background-crew-tablet.jpg)",
+      "crew-mobile": "url(./src/assets/images/crew/background-crew-mobile.jpg)",
       "tech-desktop":
-        "url(./src/images/technology/background-technology-desktop.jpg)",
+        "url(./src/assets/images/technology/background-technology-desktop.jpg)",
       "tech-tablet":
-        "url(./src/images/technology/background-technology-tablet.jpg)",
+        "url(./src/assets/images/technology/background-technology-tablet.jpg)",
       "tech-mobile":
-        "url(./src/images/technology/background-technology-mobile.jpg)",
+        "url(./src/assets/images/technology/background-technology-mobile.jpg)",
     },
 
     extend: {

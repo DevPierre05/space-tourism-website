@@ -1,6 +1,5 @@
-// import data from "../../../public/data.json";
+
 import { NavLink, Outlet } from "react-router-dom";
-// import background from "../../assets/destination/background-destination-desktop.jpg";
 
 export default function DestinationLayout() {
   const activeLink = {

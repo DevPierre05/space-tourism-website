@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import capsuleImg from "../../images/technology/image-space-capsule-portrait.jpg";
-import capsuleImg2 from "../../images/technology/image-space-capsule-landscape.jpg";
+import capsuleImg from "../../assets/images/technology/image-space-capsule-portrait.jpg";
+import capsuleImg2 from "../../assets/images/technology/image-space-capsule-landscape.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SpaceCapsule() {

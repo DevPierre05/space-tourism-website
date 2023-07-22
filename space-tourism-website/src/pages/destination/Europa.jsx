@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import europaImg from "../../images/destination/image-europa.png";
-import placeholderImg from "../../images/destination/image-europa.webp";
+import europaImg from "../../assets/images/destination/image-europa.png";
+import placeholderImg from "../../assets/images/destination/image-europa.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Europa() {
