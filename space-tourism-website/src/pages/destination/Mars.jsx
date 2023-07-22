@@ -13,7 +13,7 @@ export default function Mars() {
         <LazyLoadImage
           src={marsImg}
           placeholderSrc={placeholderImg}
-          alt=""
+          alt="Image of mars"
           className="w-[17.375rem] h-[17.375rem] sm:w-[24.375rem] sm:h-[24.375rem] md:w-[28.375rem] md:h-[28.375rem]"
         />
       </div>

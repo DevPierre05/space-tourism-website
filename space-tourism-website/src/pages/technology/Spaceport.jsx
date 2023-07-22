@@ -24,14 +24,14 @@ export default function Spaceport() {
         <div className="hidden lg:flex justify-center">
           <LazyLoadImage
             src={spaceportImg}
-            alt=""
+            alt="Image of spaceport"
             className="pb-4 md:w-[28rem] lg:w-[22rem] xl:w-[28rem] md:h-[28rem] lg:absolute lg:top-[15rem] lg:right-0 tech_img"
           />
         </div>
         <div className="lg:hidden">
           <LazyLoadImage
             src={spaceportImg2}
-            alt=""
+            alt="Image of spaceport"
             className="pb-4 w-[28rem] tech_img"
           />
         </div>

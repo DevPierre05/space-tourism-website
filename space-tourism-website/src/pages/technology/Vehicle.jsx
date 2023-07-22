@@ -29,7 +29,7 @@ export default function Vehicle() {
         <div className="hidden lg:block">
           <LazyLoadImage
             src={vehicleImg}
-            alt=""
+            alt="Image of Vehicle"
             className="pb-4 md:w-[28rem] lg:w-[22rem] xl:w-[28rem] md:h-[28rem] lg:absolute lg:top-[15rem] lg:right-0 tech_img"
           />
         </div>
