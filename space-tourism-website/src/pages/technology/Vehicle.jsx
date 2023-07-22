@@ -1,5 +1,7 @@
 import data from "../../data.json";
 import vehicleImg from "../../images/technology/image-launch-vehicle-portrait.jpg";
+import vehicleImg2 from "../../images/technology/image-launch-vehicle-landscape.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Vehicle() {
   const { technology } = data;
@@ -24,11 +26,18 @@ export default function Vehicle() {
             {vehicle.description}
           </p>
         </div>
-        <div>
-          <img
+        <div className="hidden lg:block">
+          <LazyLoadImage
             src={vehicleImg}
             alt=""
             className="pb-4 md:w-[28rem] lg:w-[22rem] xl:w-[28rem] md:h-[28rem] lg:absolute lg:top-[15rem] lg:right-0 tech_img"
+          />
+        </div>
+        <div className="lg:hidden">
+          <LazyLoadImage
+            src={vehicleImg2}
+            alt=""
+            className="pb-4 w-[28rem] tech_img"
           />
         </div>
       </div>

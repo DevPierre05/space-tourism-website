@@ -1,5 +1,7 @@
 import data from "../../data.json";
 import spaceportImg from "../../images/technology/image-spaceport-portrait.jpg";
+import spaceportImg2 from "../../images/technology/image-spaceport-landscape.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Spaceport() {
   const { technology } = data;
@@ -19,11 +21,18 @@ export default function Spaceport() {
             {spaceport.description}
           </p>
         </div>
-        <div className="flex justify-center">
-          <img
+        <div className="hidden lg:flex justify-center">
+          <LazyLoadImage
             src={spaceportImg}
             alt=""
             className="pb-4 md:w-[28rem] lg:w-[22rem] xl:w-[28rem] md:h-[28rem] lg:absolute lg:top-[15rem] lg:right-0 tech_img"
+          />
+        </div>
+        <div className="lg:hidden">
+          <LazyLoadImage
+            src={spaceportImg2}
+            alt=""
+            className="pb-4 w-[28rem] tech_img"
           />
         </div>
       </div>

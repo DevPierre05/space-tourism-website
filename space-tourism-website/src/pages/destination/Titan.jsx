@@ -1,5 +1,7 @@
 import data from "../../data.json";
-import titanImg from "../../images/destination/image-europa.png";
+import titanImg from "../../images/destination/image-titan.png";
+import placeholderImg from "../../images/destination/image-titan.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Titan() {
   const { destinations } = data;
@@ -8,9 +10,10 @@ export default function Titan() {
   return (
     <section className="mt-8 px-2 max-w-full flex flex-col items-center gap-[4rem] md:mt-20 lg:mt-8 sm:gap-[6.5rem] lg:gap-[12rem] lg:flex-row">
       <div className="mt-2 flex justify-center lg:basis-[50%]">
-        <img
+        <LazyLoadImage
           src={titanImg}
-          alt=""
+          placeholderSrc={placeholderImg}
+          alt="Image of Titan"
           className="w-[17.375rem] h-[17.375rem] sm:w-[24.375rem] sm:h-[24.375rem] md:w-[28.375rem] md:h-[28.375rem]"
         />
       </div>

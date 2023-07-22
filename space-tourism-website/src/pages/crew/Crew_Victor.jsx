@@ -1,5 +1,8 @@
 import data from "../../data.json";
 import workerImg from "../../images/crew/image-victor-glover.png";
+import placeholderImg from "../../images/crew/image-victor-glover.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 export default function Crew_Victor() {
   const { crew } = data;
   console.log(crew);
@@ -18,9 +21,10 @@ export default function Crew_Victor() {
         </p>
       </div>
       <div className="relative lg:basis-[45%]">
-        <img
+        <LazyLoadImage
           src={workerImg}
-          alt=""
+          placeholderSrc={placeholderImg}
+          alt="Image of Victor"
           className="worker_img sm:w-[30.5rem] sm:h-[34.5rem] lg:absolute lg:-top-40"
         />
       </div>

@@ -1,5 +1,8 @@
 import data from "../../data.json"
 import workerImg from "../../images/crew/image-anousheh-ansari.png";
+import placeholderImg from "../../images/crew/image-anousheh-ansari.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 export default function Crew_Anousheh() {
   const { crew } = data;
   const [worker] = crew.filter((dest) => dest.name === "Anousheh Ansari");
@@ -17,9 +20,10 @@ export default function Crew_Anousheh() {
         </p>
       </div>
       <div className="relative lg:basis-[45%]">
-        <img
+        <LazyLoadImage
           src={workerImg}
-          alt=""
+          placeholderSrc={placeholderImg}
+          alt="Image of Anousheh"
           className="worker_img sm:w-[30.5rem] sm:h-[34.5rem] lg:absolute lg:-top-40"
         />
       </div>

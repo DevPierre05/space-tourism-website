@@ -1,5 +1,7 @@
 import data from "../../data.json";
 import marsImg from "../../images/destination/image-mars.png";
+import placeholderImg from "../../images/destination/image-mars.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Mars() {
   const { destinations } = data;
@@ -8,8 +10,9 @@ export default function Mars() {
   return (
     <section className="mt-8 px-2 max-w-full flex flex-col items-center gap-[4rem] md:mt-20 lg:mt-8 sm:gap-[6.5rem] lg:gap-[12rem] lg:flex-row">
       <div className="mt-2 flex justify-center lg:basis-[50%]">
-        <img
+        <LazyLoadImage
           src={marsImg}
+          placeholderSrc={placeholderImg}
           alt=""
           className="w-[17.375rem] h-[17.375rem] sm:w-[24.375rem] sm:h-[24.375rem] md:w-[28.375rem] md:h-[28.375rem]"
         />

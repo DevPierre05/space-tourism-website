@@ -1,5 +1,7 @@
 import data from "../../data.json";
 import capsuleImg from "../../images/technology/image-space-capsule-portrait.jpg";
+import capsuleImg2 from "../../images/technology/image-space-capsule-landscape.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function SpaceCapsule() {
   const { technology } = data;
@@ -19,11 +21,18 @@ export default function SpaceCapsule() {
             {capsule.description}
           </p>
         </div>
-        <div className="">
-          <img
+        <div className="hidden lg:block">
+          <LazyLoadImage
             src={capsuleImg}
             alt=""
             className="pb-4 md:w-[28rem] lg:w-[22rem] xl:w-[28rem] md:h-[28rem] lg:absolute lg:top-[15rem] lg:right-0 tech_img"
+          />
+        </div>
+        <div className="lg:hidden">
+          <LazyLoadImage
+            src={capsuleImg2}
+            alt=""
+            className="pb-4 w-[28rem] tech_img"
           />
         </div>
       </div>
