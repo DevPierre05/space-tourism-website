@@ -11,25 +11,25 @@ export default {
     },
     backgroundImage: {
       "home-desktop":
-        "url('./src/assets/background-home-desktop.jpg)",
-      "home-tablet": "url(./src/assets/background-home-tablet.jpg)",
-      "home-mobile": "url(./src/assets/background-home-mobile.jpg)",
+        "url('./src/assets/images/home/background-home-desktop.jpg)",
+      "home-tablet": "url(./src/assets/images/home/background-home-tablet.jpg)",
+      "home-mobile": "url(./src/assets/images/home/background-home-mobile.jpg)",
       "destination-desktop":
-        "url(./src/assets/background-destination-desktop.jpg)",
+        "url(./src/assets/images/destination/background-destination-desktop.jpg)",
       "destination-tablet":
-        "url(./src/assets/background-destination-tablet.jpg)",
+        "url(./src/assets/images/destination/background-destination-tablet.jpg)",
       "destination-mobile":
-        "url(./src/assets/background-destination-mobile.jpg)",
+        "url(./src/assets/images/destination/background-destination-mobile.jpg)",
       "crew-desktop":
-        "url(./src/assets/background-crew-desktop.jpg)",
-      "crew-tablet": "url(./src/assets/background-crew-tablet.jpg)",
-      "crew-mobile": "url(./src/assets/background-crew-mobile.jpg)",
+        "url(./src/assets/images/crew/background-crew-desktop.jpg)",
+      "crew-tablet": "url(./src/assets/images/crew/background-crew-tablet.jpg)",
+      "crew-mobile": "url(./src/assets/images/crew/background-crew-mobile.jpg)",
       "tech-desktop":
-        "url(./src/assets/background-technology-desktop.jpg)",
+        "url(./src/assets/images/technology/background-technology-desktop.jpg)",
       "tech-tablet":
-        "url(./src/assets/background-technology-tablet.jpg)",
+        "url(./src/assets/images/technology/background-technology-tablet.jpg)",
       "tech-mobile":
-        "url(./src/assets/background-technology-mobile.jpg)",
+        "url(./src/assets/images/technology/background-technology-mobile.jpg)",
     },
 
     extend: {
