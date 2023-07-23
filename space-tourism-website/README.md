@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff0676a7-1a5d-401b-9862-03f9db6732d1/deploy-status)](https://app.netlify.com/sites/wspace-tourism/deploys)
 # Frontend Mentor - Space tourism website
 
 ![Design preview for the Space tourism website coding challenge](./preview.jpg)
