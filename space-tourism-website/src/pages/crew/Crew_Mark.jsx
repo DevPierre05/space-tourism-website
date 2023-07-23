@@ -6,16 +6,15 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function Crew_Mark() {
   const { crew } = data;
   const [worker] = crew.filter((dest) => dest.name === "Mark Shuttleworth");
-  console.log(worker);
 
   return (
-    <section className="max-w-full mx-auto mt-16 px-2 flex gap-6 flex-col items-center sm:gap-8 lg:gap-4 lg:mt-28 lg:flex-row lg:items-start">
-      <div className="lg:basis-[55%] flex flex-col items-center lg:items-start">
+    <section className="mx-auto mt-16 flex max-w-full flex-col items-center gap-6 px-2 sm:gap-8 lg:mt-28 lg:flex-row lg:items-start lg:gap-4">
+      <div className="flex flex-col items-center lg:basis-[55%] lg:items-start">
         <h1 className="worker_role sm:text-[2rem]">{worker.role}</h1>
-        <h1 className="worker_name sm:text-[3rem] md:text-[3.5rem] lg:text-[3.5rem] mt-2">
+        <h1 className="worker_name mt-2 sm:text-[3rem] md:text-[3.5rem] lg:text-[3.5rem]">
           {worker.name}
         </h1>
-        <p className="mt-4 worker_description w-full md:w-[80%] lg:w-[75%]">
+        <p className="worker_description mt-4 w-full md:w-[80%] lg:w-[75%]">
           {worker.bio}
         </p>
       </div>
@@ -24,7 +23,7 @@ export default function Crew_Mark() {
           src={workerImg}
           placeholderSrc={placeholderImg}
           alt="Image of Mark"
-          className="worker_img sm:w-[30.5rem] sm:h-[34.5rem] lg:absolute lg:-top-40"
+          className="worker_img sm:h-[34.5rem] sm:w-[30.5rem] lg:absolute lg:-top-40"
         />
       </div>
     </section>
