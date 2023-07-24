@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import workerImg from "../../assets/images/crew/image-mark-shuttleworth.png";
-import placeholderImg from "../../assets/images/crew/image-mark-shuttleworth.webp";
+import workerImg from "../../assets/crew/img-mark.png";
+import placeholderImg from "../../assets/crew/img-mark.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Crew_Mark() {

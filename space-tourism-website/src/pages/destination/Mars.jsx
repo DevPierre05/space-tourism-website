@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import marsImg from "../../assets/images/destination/image-mars.png";
-import placeholderImg from "../../assets/images/destination/image-mars.webp";
+import marsImg from "../../assets/dest/img-mars.png";
+import placeholderImg from "../../assets/dest/img-mars.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Mars() {

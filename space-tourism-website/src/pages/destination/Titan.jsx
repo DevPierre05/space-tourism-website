@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import titanImg from "../../assets/images/destination/image-titan.png";
-import placeholderImg from "../../assets/images/destination/image-titan.webp";
+import titanImg from "../../assets/dest/img-titan.png";
+import placeholderImg from "../../assets/dest/img-titan.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Titan() {

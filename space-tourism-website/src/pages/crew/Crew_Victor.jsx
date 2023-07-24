@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import workerImg from "../../assets/images/crew/image-victor-glover.png";
-import placeholderImg from "../../assets/images/crew/image-victor-glover.webp";
+import workerImg from "../../assets/crew/img-victor.png";
+import placeholderImg from "../../assets/crew/img-victor.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Crew_Victor() {

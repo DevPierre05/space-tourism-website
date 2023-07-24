@@ -1,5 +1,5 @@
 import { NavLink, Link, Outlet } from "react-router-dom";
-import logo from "../assets/images/shared/logo.svg";
+import logo from "../assets/shared/logo.svg";
 import { useState } from "react";
 export default function Layout() {
   const activeLink = {
@@ -118,7 +118,6 @@ export default function Layout() {
         {/* Hamburger Display */}
         {menuOpen && (
           <div
-            data-aos="slide-left"
             className="backdrop-opacity-30 backdrop-invert bg-[#1d2d46b9] flex space-y-20 
       items-center justify-center pt-4 flex-col absolute top-20 right-0 w-[60%] h-[90%] z-20 lg:hidden md:hidden"
           >

@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import workerImg from "../../assets/images/crew/image-douglas-hurley.png";
-import placeholderImg from "../../assets/images/crew/image-douglas-hurley.webp";
+import workerImg from "../../assets/crew/img-douglas.png";
+import placeholderImg from "../../assets/crew/img-douglas.webp";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Crew_Douglas() {

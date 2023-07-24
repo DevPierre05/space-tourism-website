@@ -19,18 +19,18 @@ body {
 
 /* Background-Images */
 .home_bg {
-  background-image: url("./assets/images/home/background-home-desktop.jpg");
+  background-image: url("./assets/home/bg-home-desktop.jpg");
 }
 
 .destination_bg {
-  background-image: url("./assets/images/destination/background-destination-desktop.jpg");
+  background-image: url("./assets/dest/bg-dest-desktop.jpg");
 }
 
 .crew_bg {
-  background-image: url("./assets/images/crew/background-crew-desktop.jpg");
+  background-image: url("./assets/crew/bg-crew-desktop.jpg");
 }
 .tech_bg {
-  background-image: url("./assets/images/technology/background-technology-desktop.jpg");
+  background-image: url("./assets/tech/bg-tech-desktop.jpg");
 }
 /* End of Background Images */
 
@@ -214,37 +214,37 @@ body {
 /* Desktop */
 @media (max-width: 480px) {
   .home_bg {
-    background-image: url("./assets/images/home/background-home-mobile.jpg");
+    background-image: url("./assets/home/bg-home-mobile.jpg");
   }
 
   .crew_bg {
-    background-image: url("./assets/images/crew/background-crew-mobile.jpg");
+    background-image: url("./assets/crew/bg-crew-mobile.jpg");
   }
 
   .destination_bg {
-    background-image: url("./assets/images/destination/background-destination-mobile.jpg");
+    background-image: url("./assets/dest/bg-dest-mobile.jpg");
   }
 
   .tech_bg {
-    background-image: url("./assets/images/technology/background-technology-mobile.jpg");
+    background-image: url("./assets/tech/bg-tech-mobile.jpg");
   }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
   .home_bg {
-    background-image: url("./assets/images/home/background-home-tablet.jpg");
+    background-image: url("./assets/home/bg-home-tablet.jpg");
   }
 
   .crew_bg {
-    background-image: url("./assets/images/crew/background-crew-tablet.jpg");
+    background-image: url("./assets/crew/bg-crew-tablet.jpg");
   }
 
   .destination_bg {
-    background-image: url("./assets/images/destination/background-destination-tablet.jpg");
+    background-image: url("./assets/dest/bg-dest-tablet.jpg");
   }
 
   .tech_bg {
-    background-image: url("./assets/images/technology/background-technology-tablet.jpg");
+    background-image: url("./assets/tech/bg-tech-tablet.jpg");
   }
 }

@@ -1,6 +1,6 @@
 import data from "../../data.json";
-import vehicleImg from "../../assets/images/technology/image-launch-vehicle-portrait.jpg";
-import vehicleImg2 from "../../assets/images/technology/image-launch-vehicle-landscape.jpg";
+import vehicleImg from "../../assets/tech/img-launch-vehicle-portrait.jpg";
+import vehicleImg2 from "../../assets/tech/img-launch-vehicle-landscape.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function Vehicle() {
