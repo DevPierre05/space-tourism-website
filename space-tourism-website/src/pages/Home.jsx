@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="home_bg min-h-screen max-w-full bg-cover bg-no-repeat px-4 pb-12">
+    <section className="home_bg min-h-screen max-w-full bg-cover bg-no-repeat px-4 pb-12">
       <div className="mx-auto grid w-[85%] justify-center gap-20 px-2 pt-44 sm:gap-32 md:pt-60 lg:w-full lg:grid-cols-2 lg:pt-72">
         <div className="text-white lg:ml-8 xl:ml-32">
           <h1 className="first_header sm:text-[1.50rem] md:text-[1.75rem] lg:text-[1.75rem] xl:text-4xl">
@@ -25,6 +25,6 @@ export default function Home() {
           <Link to="/destination">Explore</Link>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
