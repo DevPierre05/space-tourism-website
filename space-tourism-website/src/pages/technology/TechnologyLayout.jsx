@@ -19,21 +19,21 @@ export default function TechnologyLayout() {
             to="."
             end
             style={({ isActive }) => (isActive ? activeLink : null)}
-            className="number flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-full border-2 border-zinc-800 text-[1rem] text-2xl"
+            className="flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-full border-2 border-zinc-800 text-[1.1rem]"
           >
             1
           </NavLink>
           <NavLink
             to="spaceport"
             style={({ isActive }) => (isActive ? activeLink : null)}
-            className="number flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-full border-2 border-zinc-800 text-[1rem] text-2xl"
+            className="flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-full border-2 border-zinc-800 text-[1.1rem]"
           >
             2
           </NavLink>
           <NavLink
             to="space-capsule"
             style={({ isActive }) => (isActive ? activeLink : null)}
-            className="number flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-full border-2 border-zinc-800 text-[1rem] text-2xl"
+            className="flex h-[2.5rem] w-[2.5rem] items-center justify-center rounded-full border-2 border-zinc-800 text-[1.1rem]"
           >
             3
           </NavLink>
