@@ -1,5 +1,8 @@
 import "./App.css";
 import Home from "./pages/Home";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import {
   createRoutesFromElements,
@@ -49,7 +52,16 @@ function App() {
     )
   );
 
- 
+  useEffect(() => {
+    AOS.init({
+      delay: 20, // values from 0 to 3000, with step 50ms
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      easing: "ease",
+      once: false,
+    });
+    AOS.refresh();
+    
+  }, [])
 
   return <RouterProvider router={router} />;
 }

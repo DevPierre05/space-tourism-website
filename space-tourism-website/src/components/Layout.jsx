@@ -118,6 +118,7 @@ export default function Layout() {
         {/* Hamburger Display */}
         {menuOpen && (
           <div
+            data-aos="slide-left"
             className="backdrop-opacity-30 backdrop-invert bg-[#1d2d46b9] flex space-y-20 
       items-center justify-center pt-4 flex-col absolute top-20 right-0 w-[60%] h-[90%] z-20 lg:hidden md:hidden"
           >
