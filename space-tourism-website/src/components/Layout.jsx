@@ -65,7 +65,7 @@ export default function Layout() {
               </svg>
             )}
           </div>
-          <ul
+          <div
             className="hidden lg:backdrop-opacity-10 lg:backdrop-invert lg:bg-[#ffffff00] lg:px-28 lg:basis-[70%] lg:z-2 lg:h-24 lg:flex lg:gap-2 lg:items-center lg:justify-evenly lg:text-white 
         md:backdrop-opacity-10 md:backdrop-invert md:bg-[#ffffff00] md:px-28 md:basis-[70%] md:z-2 md:h-24 md:flex md:gap-6 md:items-center md:justify-around md:text-white "
           >
@@ -74,38 +74,38 @@ export default function Layout() {
               className="h-full "
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="flex items-center h-full navlink uppercase  hover:scale-110">
+              <p className="flex items-center h-full navlink uppercase  hover:scale-110">
                 <span className="font-bold mr-2 md:hidden">00</span> Home
-              </li>
+              </p>
             </NavLink>
             <NavLink
               to="/destination"
               className="h-full"
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="navlink flex items-center h-full uppercase  hover:scale-110">
+              <p className="navlink flex items-center h-full uppercase  hover:scale-110">
                 <span className="font-bold mr-2 md:hidden">01</span> Destination
-              </li>
+              </p>
             </NavLink>
             <NavLink
               to="crew"
               className="h-full"
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="navlink flex items-center h-full uppercase hover:scale-110">
+              <p className="navlink flex items-center h-full uppercase hover:scale-110">
                 <span className="font-bold mr-2 md:hidden">02</span> Crew
-              </li>
+              </p>
             </NavLink>
             <NavLink
               to="technology"
               className="h-full"
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="navlink flex items-center h-full uppercase hover:scale-110">
+              <p className="navlink flex items-center h-full uppercase hover:scale-110">
                 <span className="font-bold mr-2 md:hidden">03</span> Technology
-              </li>
+              </p>
             </NavLink>
-          </ul>
+          </div>
         </nav>
         {/* Overlay */}
         {menuOpen && (
@@ -127,36 +127,36 @@ export default function Layout() {
               className=""
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="flex items-center navlink navlink_mobile uppercase hover:scale-110 sm:text-[1.3rem]">
+              <p className="flex items-center navlink navlink_mobile uppercase hover:scale-110 sm:text-[1.3rem]">
                 <span className="font-bold mr-2">00</span> Home
-              </li>
+              </p>
             </NavLink>
             <NavLink
               to="/destination"
               className=""
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="navlink navlink_mobile flex items-center uppercase hover:scale-110 sm:text-[1.3rem]">
+              <p className="navlink navlink_mobile flex items-center uppercase hover:scale-110 sm:text-[1.3rem]">
                 <span className="font-bold mr-2">01</span> Destination
-              </li>
+              </p>
             </NavLink>
             <NavLink
               to="crew"
               className=""
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="navlink navlink_mobile flex items-center uppercase hover:scale-110 sm:text-[1.3rem]">
+              <p className="navlink navlink_mobile flex items-center uppercase hover:scale-110 sm:text-[1.3rem]">
                 <span className="font-bold mr-2">02</span> Crew
-              </li>
+              </p>
             </NavLink>
             <NavLink
               to="technology"
               className=""
               style={({ isActive }) => (isActive ? activeLink : null)}
             >
-              <li className="navlink navlink_mobile flex items-center uppercase hover:scale-110 sm:text-[1.3rem]">
+              <p className="navlink navlink_mobile flex items-center uppercase hover:scale-110 sm:text-[1.3rem]">
                 <span className="font-bold mr-2">03</span> Technology
-              </li>
+              </p>
             </NavLink>
           </div>
         )}
