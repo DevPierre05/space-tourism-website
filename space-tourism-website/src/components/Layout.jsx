@@ -14,7 +14,8 @@ export default function Layout() {
 
   return (
     <>
-      <main>
+      <section>
+        <h1 className="hidden"></h1>
         <nav className="flex justify-between items-center absolute top-0 right-0 w-full -gap-6 pt-6 pl-8 h-24">
           <Link to="/" className="basis-[30%] flex gap-5 h-24 items-center">
             <img src={logo} alt="Image of logo" className="w-12" />
@@ -161,7 +162,7 @@ export default function Layout() {
           </div>
         )}
         <Outlet />
-      </main>
+      </section>
       <footer className="bg-slate-900 w-full text-sm text-center text-white">
         Challenge by{" "}
         <span className="underline">
