@@ -15,6 +15,7 @@ export default function Layout() {
   return (
     <>
       <section>
+        <h1 className="sr-only">Home</h1>
         <nav className="flex justify-between items-center absolute top-0 right-0 w-full -gap-6 pt-6 pl-8 h-24">
           <Link to="/" className="basis-[30%] flex gap-5 h-24 items-center">
             <img src={logo} alt="Image of logo" className="w-12" />
