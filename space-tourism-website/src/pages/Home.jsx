@@ -19,7 +19,7 @@ export default function Home() {
           </p>
         </div>
         <div
-          className="explore flex items-center justify-center justify-self-center rounded-full bg-white uppercase
+          className="explore flex items-center justify-center justify-self-center rounded-full bg-white  text-[#23286d0c] uppercase
         sm:h-[17.125rem] sm:w-[17.125rem] "
         >
           <Link to="/destination">Explore</Link>
